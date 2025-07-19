@@ -62,7 +62,9 @@ nav ul {
         width: 40px;
     }
 }
-
+footer{
+    padding-bottom: 40px;  
+}
     
 #banner .container{
     display: flex;
@@ -88,22 +90,104 @@ nav ul {
             margin-top: 10px;
             border: 1px solid purple;
 }
-#footer{
-    .container{
-        
-        /* border: 1px solid red; */
-        h3{
-            color: white;
-            
-        }
-        .logos{
-            display: flex;
-            justify-content: space-evenly;
-        }
-    }
+#icons{
+    display: flex;
+    justify-content: space-between;
 }
-.clickup{
-    border: 1px groove #FFFFFF;
+footer>.container>h3{
+    color: white;
+}
+footer>.container>div>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px groove rgb(255, 255, 255 ,.1);
+    height: 40px;
+    max-width: 110px;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+#casestudies{
+    background-color: white;
     
-    
+}
+
+#works{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+   
+}
+#text{
+    padding: 80px;
+}
+.chip {
+    color: orange;
+    background-color: rgb(255, 165, 0,.2);
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    margin-bottom: 20px;
+}
+#work1>div>button{
+    margin-top: 40px;
+    padding:10px 40px 10px 40px;
+    color: white;
+    background-color: orange;
+    border: none;
+}
+#work1>div>p{
+    max-width: 420px
+}
+#work1{
+    display: flex;
+    justify-content: space-between;
+}
+.chip2{
+    color: blue;
+    background-color: rgb(0, 0, 255,.2);
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    margin-bottom: 20px;
+}
+#work2>div>button{
+    margin-top: 40px;
+    padding:10px 40px 10px 40px;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+#work2>div>p{
+    max-width: 420px
+}
+#work2{
+    display: flex;
+    justify-content: space-between;
+}
+.chip3{
+    color: green;
+    background-color: rgb(0, 128, 0,.2);
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    margin-bottom: 20px;
+}
+#work3>div>button{
+    margin-top: 40px;
+    padding:10px 40px 10px 40px;
+    color: white;
+    background-color: green;
+    border: none;
+}
+#work3>div>p{
+    max-width: 420px
+}
+#work3{
+    display: flex;
+    justify-content: space-between;
 }
