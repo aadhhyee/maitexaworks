@@ -27,6 +27,25 @@ body {
     margin: 0 auto;
 }
 
+.blue {
+    color: #000AFF !important;
+}
+
+.green {
+    color: #2AB090  !important;
+}
+
+.bg-light-green {
+    background-color: rgb(0, 128, 0,.2) !important;
+}
+.bg-light-blue {
+       background-color: rgb(0, 0, 255,.2) !important;
+}
+.pacha {
+       background-color: #62BA1B !important;
+}
+
+
 
 nav {
     background-color: rgba(27, 27, 27, 1);
@@ -145,15 +164,6 @@ footer>.container>div>div{
     display: flex;
     justify-content: space-between;
 }
-.chip2{
-    color: blue;
-    background-color: rgb(0, 0, 255,.2);
-    border-radius: 20px;
-    display: inline-block;
-    text-align: center;
-    width: 80px;
-    margin-bottom: 20px;
-}
 #work2>div>button{
     margin-top: 40px;
     padding:10px 40px 10px 40px;
@@ -168,15 +178,6 @@ footer>.container>div>div{
     display: flex;
     justify-content: space-between;
 }
-.chip3{
-    color: green;
-    background-color: rgb(0, 128, 0,.2);
-    border-radius: 20px;
-    display: inline-block;
-    text-align: center;
-    width: 80px;
-    margin-bottom: 20px;
-}
 #work3>div>button{
     margin-top: 40px;
     padding:10px 40px 10px 40px;
@@ -190,4 +191,118 @@ footer>.container>div>div{
 #work3{
     display: flex;
     justify-content: space-between;
+}  
+
+#casestudies{
+    padding-bottom: 80px;
+}
+#Testimonials{
+    color: white;
+} 
+#testi{
+    padding-top: 50px;
+    text-align: center;
+}
+#clients{
+    margin-top: 80px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 62px;
+}
+.testimonial-card{
+    border: 1px groove;
+    max-width: 445px;
+    min-height: 150px;  
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.testimonial-card div { 
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.testimonial-card{
+    position: relative;
+}
+.quotes{
+    position: absolute;
+    top: -20px;
+    left: 50px;
+    width: 32px;
+}
+#recent-works{
+    background-color: white;
+    padding-bottom: 80px;
+}
+.container> .Text-section{
+    text-align: center;
+}
+.Text-section>h1{
+    padding-top: 80px;
+    margin-bottom: 10px;
+}
+#work-cards{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+.work-card h1{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.work-card p{
+    width: 420px;
+}
+.work-card span{
+    margin: auto;
+    margin-left: 5px;
+    
+}
+.work-card button{
+    margin-top: 30px;
+    padding: 10px 24px 10px 30px;
+    color: white;
+    border: none;
+}
+#contact .text{
+    margin-top: 80px;
+    color: white;
+    text-align: center;
+}
+.text p{
+    width: 400px;
+    padding-top: 10px;
+    margin: auto;
+}
+#forms{
+    padding-top: 50px;
+    max-width: 350px;
+    color: white    ;
+    margin: 0 auto;
+}
+#forms input{
+    width: 100%;
+    min-height: 40px;
+    margin-bottom: 20px;
+}
+textarea{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 90px;
+}
+
+.pacha{
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+    padding: 16px 141px 16px 141px;
+    margin-top: 20px;
+
+}
+.pacha span{
+    padding-left: 5px;
 }
