@@ -1,0 +1,109 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+list-style-type: none;
+}
+
+body {
+    background: #080808;
+}
+
+.container {
+    max-width: 920px;
+    margin: 0 auto;
+}
+.container-fluid{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+
+nav {
+    background-color: rgba(27, 27, 27, 1);
+    padding: 24px auto;
+
+     border-radius: 12px;
+}
+
+nav a {
+    color: rgba(156, 156, 156, 1);
+}
+
+nav ul {
+     min-height: 70px;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     
+}
+.icons{
+    
+    #behance{
+        height: 30px;
+        width: 50px;
+        
+    }
+    #linkedin{
+        height: 30px;
+        width: 50px;
+    }
+    #twitter{
+        height: 30px;
+        width: 40px;
+    }
+}
+
+    
+#banner .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.namedetails>h1{
+            color: white;
+            font-size: 50px;
+            margin-bottom: 10px;
+}
+.namedetails>p{
+            color: rgba(156, 156, 156, 1);
+            width: 492;
+            height: 72;
+            margin-bottom: 10px;
+}
+.namedetails>button{
+            padding: 21px 64px;
+            background-color: purple;
+            margin-top: 10px;
+            border: 1px solid purple;
+}
+#footer{
+    .container{
+        
+        /* border: 1px solid red; */
+        h3{
+            color: white;
+            
+        }
+        .logos{
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+}
+.clickup{
+    border: 1px groove #FFFFFF;
+    
+    
+}
